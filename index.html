@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RPS Game</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/	bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script type="text/javascript" src="assets/javascript/logic.js"></script>
+
+</head>
+<body>
+
+	<header>Rock, Paper, Scissors!</header>
+	<div class="container">
+
+		<div class="row">
+			
+			<div class="col-lg-12"></div>
+		</div>
+
+
+		<div class="row">
+			
+			<div class="col-lg-4" id="playerLeft">
+			<button id="rock" class="game-btn" class="btn" value="1">Rock</button>
+			<button id="paper" class="game-btn" class="btn" value="2">Paper</button>
+			<button id="scissors" class="game-btn" class="btn" value="3">Scissors</button>	
+			</div>
+
+
+			<div class="col-lg-4" id="board">
+				<div id="leftChoice"></div>
+				<div id="RightChoice"></div>
+				
+			</div>
+
+
+			<div class="col-lg-4" id="playerRight">
+			<button id="rock1" class="game-btn1" class="btn" value="1">Rock</button>
+			<button id="paper1" class="game-btn1" class="btn" value="2">Paper</button>
+			<button id="scissors1" class="game-btn1" class="btn" value="3">Scissors</button>
+			</div>
+		</div>
+
+
+		<div class="row">
+			
+			<div class="col-lg-12" id="results">Winner!
+			</div>
+		</div>
+	</div>
+</body>
+</html>
